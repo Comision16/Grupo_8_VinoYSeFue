@@ -17,7 +17,12 @@ module.exports = {
     },
 
     list: (req, res) => {
-        db.Product.findAll({include: ['images']})
+        db.Product.findAll({
+            include: ['images'],
+            where : {
+                categoryId : req.query.category
+            }
+        })
             .then(products=>{
                 return res.render('productList',{
                     products, toThousand
