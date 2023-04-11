@@ -2,8 +2,8 @@
 ## Presentación
 Proyecto creado utilizando el patrón de diseño MVC con *Express*, y *MySQL* en la base de datos. Paralelamente tiene un dashboard hecho en *React* que consume APIs generadas en la aplicación, por medio del cual se puede hacer el ABM de productos.
 ## Requerimientos
-- Tener instalado Node
-- Tener un servidor de MySQL corriendo en el sistema
+- Tener instalado [Node](https://nodejs.org/es)
+- Tener un servidor de MySQL corriendo en el sistema. Puede instalar [XAMPP](https://www.apachefriends.org/es/index.html) o [MySQL Server](https://dev.mysql.com/downloads/mysql/) u otro de su preferencia.
 ## Dependencias incluídas en el proyecto
 ### En el servidor de Node
     - "bcryptjs": "^2.4.3",
